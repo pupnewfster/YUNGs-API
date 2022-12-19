@@ -5,7 +5,7 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import com.yungnickyoung.minecraft.yungsapi.mixin.accessor.FeaturePoolElementAccessor;
 import com.yungnickyoung.minecraft.yungsapi.module.StructurePoolElementTypeModule;
 import net.minecraft.core.Holder;
-import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement;
 import net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType;
@@ -48,6 +48,6 @@ public class MaxCountFeaturePoolElement extends FeaturePoolElement implements IM
     }
 
     public String toString() {
-        return "MaxCountFeature[" + this.name + "][" + Registry.FEATURE.getKey((((FeaturePoolElementAccessor)this).getFeature().value()).feature().value().feature()) + "][" + this.maxCount + "]";
+        return "MaxCountFeature[" + this.name + "][" + BuiltInRegistries.FEATURE.getKey((((FeaturePoolElementAccessor)this).getFeature().value()).feature().value().feature()) + "][" + this.maxCount + "]";
     }
 }

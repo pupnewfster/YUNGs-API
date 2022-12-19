@@ -1,6 +1,5 @@
 package com.yungnickyoung.minecraft.yungsapi.world.spawner;
 
-import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.NbtOps;

@@ -5,7 +5,6 @@ import com.google.gson.JsonObject;
 import com.mojang.serialization.JsonOps;
 import com.yungnickyoung.minecraft.yungsapi.YungsApiCommon;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
