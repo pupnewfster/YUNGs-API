@@ -1,4 +1,4 @@
-package com.yungnickyoung.minecraft.yungsapi.world.condition;
+package com.yungnickyoung.minecraft.yungsapi.world.structure.condition;
 
 import com.mojang.serialization.Codec;
 import com.yungnickyoung.minecraft.yungsapi.world.structure.context.StructureContext;

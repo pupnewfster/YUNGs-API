@@ -1,4 +1,4 @@
-package com.yungnickyoung.minecraft.yungsapi.world.jigsaw;
+package com.yungnickyoung.minecraft.yungsapi.world.structure.jigsaw;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Queues;
@@ -7,9 +7,9 @@ import com.yungnickyoung.minecraft.yungsapi.YungsApiCommon;
 import com.yungnickyoung.minecraft.yungsapi.mixin.accessor.BoundingBoxAccessor;
 import com.yungnickyoung.minecraft.yungsapi.mixin.accessor.StructureTemplatePoolAccessor;
 import com.yungnickyoung.minecraft.yungsapi.util.BoxOctree;
-import com.yungnickyoung.minecraft.yungsapi.world.jigsaw.piece.IMaxCountJigsawPoolElement;
+import com.yungnickyoung.minecraft.yungsapi.world.structure.jigsaw.element.IMaxCountJigsawPoolElement;
 import com.yungnickyoung.minecraft.yungsapi.world.structure.context.StructureContext;
-import com.yungnickyoung.minecraft.yungsapi.world.jigsaw.piece.YungJigsawSinglePoolElement;
+import com.yungnickyoung.minecraft.yungsapi.world.structure.jigsaw.element.YungJigsawSinglePoolElement;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.Util;
 import net.minecraft.core.*;

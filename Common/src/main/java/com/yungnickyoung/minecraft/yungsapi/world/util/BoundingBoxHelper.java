@@ -1,4 +1,4 @@
-package com.yungnickyoung.minecraft.yungsapi.world;
+package com.yungnickyoung.minecraft.yungsapi.world.util;
 
 import com.yungnickyoung.minecraft.yungsapi.mixin.accessor.BoundingBoxAccessor;
 import net.minecraft.core.Direction;

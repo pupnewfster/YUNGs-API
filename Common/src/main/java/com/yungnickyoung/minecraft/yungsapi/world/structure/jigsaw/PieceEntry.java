@@ -1,7 +1,7 @@
-package com.yungnickyoung.minecraft.yungsapi.world.jigsaw;
+package com.yungnickyoung.minecraft.yungsapi.world.structure.jigsaw;
 
 import com.yungnickyoung.minecraft.yungsapi.util.BoxOctree;
-import com.yungnickyoung.minecraft.yungsapi.world.jigsaw.piece.YungJigsawSinglePoolElement;
+import com.yungnickyoung.minecraft.yungsapi.world.structure.jigsaw.element.YungJigsawSinglePoolElement;
 import net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece;
 import net.minecraft.world.level.levelgen.structure.pools.JigsawJunction;
 import net.minecraft.world.phys.AABB;

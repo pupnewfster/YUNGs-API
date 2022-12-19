@@ -1,4 +1,4 @@
-package com.yungnickyoung.minecraft.yungsapi.world;
+package com.yungnickyoung.minecraft.yungsapi.world.util;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
